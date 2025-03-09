@@ -1,7 +1,7 @@
 import streamlit as st
 from libs import Library, Member
 
-st.title("Library Membership System")
+st.title("Library Membership System Automation")
 
 if "library" not in st.session_state:
     st.session_state.library = Library("My Library")
